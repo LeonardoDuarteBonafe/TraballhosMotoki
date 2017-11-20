@@ -1,1 +1,3 @@
-
+O site possui tags de HTML5 mencionadas no tutorial, como head, header, body, footer, p, img, iframe, main, article, etc.
+Possui o CSS como requisito extra, para dar uma beleza a mais no site.
+E também possui 3 simples aplicações em JavaScript, sendo um botão em cima da foto da unifei, que abre a pagina da unifei em uma nova guia. Temos o footer que a cada 3000ms ou 3s atualiza o innerHTML e também o botão VAI QUE VAI no formulário, onde, ao clicar, irá dar um alerta e redirecionar para a página inicial, dando uma ideia de validação de formulário.
