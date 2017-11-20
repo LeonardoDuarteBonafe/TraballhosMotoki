@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--CSS-->
+		<link rel="stylesheet" href="styleSubmitNota.css" type="text/css">
+		<!--BOOTSTRAP-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<!-- FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<meta charset='utf-8'>
+	</head>
+	<body>
+		<!-- PERFIL -->
+		<div class="container_profile_bg"> <!-- usuário do perfil escolhe -->
+			<div class="container_profile">
+				<div class="container_profile_top">
+                    <a href="index.html" class="container_profile_top_button_left">Principal</a>          
+                    <a class="container_profile_top_button_right">Hello, Motoki!</a>
+				</div>
+				<div class="container_profile_bottom">
+					<div class="register_form_content">
+						<form class="register_form">
+							<div class="register_form_title">A wild professor appears</div>
+							<div class="register_form_text">> Qual membro receberá uma nota?</div>
+								<select class="register_form_input" name="members">
+									<option>Daniel Damasio - 34157</option>
+									<option>Jonas Cauan - 34388</option>
+									<option>Leonardo Duarte - 33211</option>
+                                    <option>Paulo Salomon - 33934</option>
+                                    <option>Vitor Nishino - 34360</option>
+								</select>
+							<div class="register_form_text">> Qual nota você gostaria de atribuir?</div>
+							<input class="register_form_input" type="text" name="points" placeholder="Ex: 10">
+							<div class="register_form_text">> Adicione uma pequena descrição do(s) motivo(s) da atribuição da nota.</div>
+							<input class="register_form_input" type="text" name="pointdesc" placeholder="Ex: 'Desenvolvimento perfeito', 'Gostei da audácia'">
+							<div class="register_form_title">Gostaria de confirmar a atribuição da nota?</div>
+							<a class="register_form_submit" type="submit" id="form_submit">VAI QUE VAI</a>
+						</form>
+					</div>
+				</div>
+            </div>
+        </div>
+        <script type=text/javascript>
+            document.getElementById("form_submit").onclick = function(){
+                alert("Obrigado por nos avaliar, independente de tudo, mesmo que for um 9 :/ SAUHDUSHA brincadeira, obrigado!");
+                location.href = "index.html";
+            }
+        </script>
+	</body>
+</html>

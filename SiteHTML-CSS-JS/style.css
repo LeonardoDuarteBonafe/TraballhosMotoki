@@ -1,0 +1,126 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.1em;
+}
+h1{
+    cursor: default;
+    margin: 1.5% 5%;
+    font-size: 2.3em;
+}
+h2{
+    cursor: default;
+    margin: 2% 3% 0 3%;
+    font-size: 1.6em;
+}
+p{ 
+    cursor: default;
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 10 20;
+    border-radius: 10px;
+    font-size: 2em;
+    transition: 1s;
+    margin: 10%;
+}
+header a:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+.perfis{
+    text-align: center;
+    padding: 15;
+    background-color: Black;
+    font-size: 1.3em
+}
+.perfis li{
+    display: inline;
+}
+.perfis li a{
+    text-decoration: none;
+    color: white;
+    padding: 16 5%;
+    transition: 1s;
+}
+.perfis li a:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+main{
+    text-align: justify;
+    padding: 0;
+}
+#button_unifei{
+    width: 30%;
+    padding: 5px 0;
+    margin: 0 35% 2% 35%;
+    border-radius: 20px;
+    background-color: #103A84;
+    color: white;
+    border: 2px solid red;
+}
+img{
+    width: 50%;
+    margin: 0 25%;
+}
+article{
+    background-color: #ECECEC;
+    width: 45%;
+    margin: 2.5%;
+    float: left;
+    text-align: justify;
+}
+article p{
+    padding: 4%;
+}
+article img{
+    border-radius: 50%;
+}
+iframe{
+    width: 90%;
+    margin: 0 5% 5% 5%;
+}
+
+#vitor{
+    width: 95%;
+}
+#vitor img{
+    width: 50%;
+    margin-bottom: 3%;
+}
+#vitor iframe{
+    width: 90%;
+    float: right;
+    margin-bottom: 3%;
+}
+#contexto_esquerda{
+    float: left;
+    width: 50%;
+}
+#contexto_direita{
+    padding-top: 3%;
+    float: right;
+    width: 50%;
+}
+#vitor_descricao{
+    padding: 0 5%;
+    width: 40%;
+    float: right;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 3% 0;
+    text-align: center;
+    font-size: 2em;
+    float: left;
+}

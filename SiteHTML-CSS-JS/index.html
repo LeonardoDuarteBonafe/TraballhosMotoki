@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="LogoEFEI.jpg"> 
+        <title>Nossa equipe maravilhosa</title>
+    </head>
+    <body>
+        <header>
+                <a href="index.html">Sobre nós</a>
+                <a href="submitNota.html">Formulário</a>
+        </header>
+        <div>
+            <ul class="perfis">
+                <li><a href="#Daniel">Daniel</a></li>
+                <li><a href="#Jonas">Jonas</a></li>
+                <li><a href="#Leonardo">Leonardo</a></li>
+                <li><a href="#Paulo">Paulo</a></li>
+                <li><a href="#Vitor">Vitor</a></li>
+            </ul>
+        </div>
+        <main>
+            
+            <h1>Nós somos uma equipe composta por 5 alunos da Universidade Federal de Itajubá, uma das melhores do Brasil!</h1>
+            <button id="button_unifei">Ir para a página da UNIFEI</button>
+            <img src="imagens/unifei1.jpg">
+            <h2>A baixo teremos um pouco sobre cada membro</h2>
+            <article id="Daniel">
+                <p>
+                    Nome: Daniel Maltoni Damásio<br>
+                    Matrícula: 34157<br>
+                    Cidade natal: Vinhedo<br>
+                    Nascimento: 28/01/1997<br>
+                    Curso: Engenharia de Computação - UNIFEI<br>
+                </p>
+                <img src="imagens/Daniel.jpg">
+                <p>Gosta de ler, tipos variados de livros. Comer, come muito, apesar do seu físico. Paz, é um cara que gosta muito de sossego, sente-se bem com a vida. Música, é eclético. E tem um amor por teatro e artes cênicas</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1ufuS_JKb6M" frameborder="0" allowfullscreen></iframe>
+            </article>
+            
+            <article id="Jonas">
+                <p>
+                    Nome: Jonas Cauan de Oliveira<br>
+                    Matrícula: 34388<br>
+                    Cidade natal: São José dos Campos<br>
+                    Nascimento: 14/08/1997<br>
+                    Curso: Engenharia de Computação - UNIFEI<br>
+                </p>
+                <img src="imagens/Jonas.jpg">
+                <p>Gosta de tênis, é muito habilidoso nas artes de mesa, ping pong, fanático pelo seu time de coração: Corinthians, Vai porco!! É muito estudioso e dedicado ao que deseja! CURINTIA 2017</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-CK1r1opMA8" frameborder="0" allowfullscreen></iframe>
+            </article>
+            
+            <article id="Leonardo">
+                <p>
+                    Nome: Leonardo Duarte Bonafé<br>
+                    Matrícula: 33211<br>
+                    Cidade natal: Itajubá<br>
+                    Nascimento: 17/02/1996<br>
+                    Curso: Engenharia de Computação - UNIFEI<br>
+                </p>
+                <img src="imagens/Leonardo.jpg">
+                <p>Gosta de jogar jogos onlines competitivos, ainda mais dota 2. Gosta também de séries e animes.
+                É eclético, ouve o que tiver e vai indo.
+                Deseja terminar a graduação e especializar em desenvolvimento de games</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/idEUCU6SDoU" frameborder="0" allowfullscreen></iframe>
+            </article>
+            
+            <article id="Paulo">
+                <p>
+                    Nome: Paulo Eduardo Paes Salomon<br>
+                    Matrícula: 34934<br>
+                    Cidade natal: Itajubá<br>
+                    Nascimento: <br>
+                    Curso: Engenharia de Computação - UNIFEI<br>
+                </p>
+                <img src="imagens/Paulo.jpg">
+                <p>Estudante de engenharia de computação, gosta de ciência, computação, música, séries e filmes. Série favorita: Cosmos.
+                Filme favorito: The Godfather. 
+                Banda favorita: Led Zeppelin.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6tlSx0jkuLM" frameborder="0" allowfullscreen></iframe>
+            </article>
+            
+            <article id="Vitor">
+                <div id="contexto_esquerda">
+                    <p>
+                        Nome: Vitor Nishino<br>
+                        Matrícula: 34360<br>
+                        Cidade natal: Mogi das Cruzes <br>
+                        Nascimento: 28/07/1996<br>
+                        Curso: Engenharia de Computação - UNIFEI<br>
+                    </p>
+                    <img src="imagens/Vitor.jpg">
+                </div>
+                <div id="contexto_direita">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8tjcm_kI0n0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p id="vitor_descricao">Gosta de viajar, de jogos de variados tipos, gosta de séries, filmes de comédia, animes e de muito LOLZINHO</p>
+            </article>
+        </main>
+        <footer id="footer_message">Desenvolvido como trabalho da disciplina de Linguagem de Programação</footer>
+        
+        <script type=text/javascript>
+            var estado = 0;
+            window.setInterval(function(){
+                if(estado == 0){
+                    setInterval(3000);
+                    document.getElementById("footer_message").innerHTML = "Desenvolvido como trabalho da disciplina de Linguagem de Programação";
+                    estado = 1;
+                } else {
+                    setInterval(3000);
+                    document.getElementById("footer_message").innerHTML = "Esperamos que você tenha gostado Motoki!";
+                    estado = 0;
+                }
+            }, 3000);
+            
+            document.getElementById("button_unifei").onclick = function(){
+                window.open("https://www.unifei.edu.br/");
+            }
+            
+        </script>
+        
+    </body>
+    
+</html>
